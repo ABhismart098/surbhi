@@ -7,20 +7,19 @@
     width: 100%;
     background-color: #f6f8fa; /* Light background color */
     font-family: Arial, sans-serif; /* Default font */
-  }
-  
-  .fullscreen {
-    background-color: #f6f8fa; /* Background color of the full screen */
+    perspective: 1000px; /* Perspective for 3D effect */
   }
   
   .welcome-page h1 {
     font-size: 3rem; /* Larger font size for heading */
-    color: #0366d6; /* GitHub's primary color for headings */
+    color: #0366d6; /* Primary color for headings */
+    transform: rotateX(10deg); /* Rotate along X-axis */
+    transition: transform 0.3s ease; /* Add transition for smooth animation */
   }
   
   .welcome-page p {
     font-size: 1.2rem; /* Medium font size for paragraphs */
-    color: #24292e; /* GitHub's text color */
+    color: #24292e; /* Text color */
   }
   
   .buttons {
@@ -28,7 +27,7 @@
   }
   
   .buttons button {
-    background-color: #0366d6; /* GitHub's primary color for buttons */
+    background-color: #0366d6; /* Primary color for buttons */
     color: #ffffff; /* White text color for buttons */
     border: none;
     padding: 15px 30px;
